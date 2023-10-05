@@ -1,0 +1,31 @@
+body {
+    position: relative;
+    width:90%;
+    margin: a
+} 
+
+h2 {
+text-align: center;
+}
+
+.grid {
+    position: relative;
+    margin: auto 10%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: blue;
+}
+  
+.square {
+    margin:auto;
+    height: 200px;
+    width: 225px;
+    border: solid black 2px;
+    background-color: rgb(255, 0, 89);
+
+}
+
+.mole{ 
+    border-radius: 50%;
+    content: url(./images/download.jpeg)
+}
