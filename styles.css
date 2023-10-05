@@ -1,11 +1,21 @@
 body {
     position: relative;
     width:90%;
-    margin: a
+    margin: auto;
+    background-color: black;
 } 
+
+.title {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
 
 h2 {
 text-align: center;
+font-size:40px;
+color:goldenrod;
+margin: 20px 5px 20px 5px;
 }
 
 .grid {
@@ -13,18 +23,25 @@ text-align: center;
     margin: auto 10%;
     display: flex;
     flex-wrap: wrap;
-    background-color: blue;
+    background-color: rgb(9, 179, 26);
+    border: solid goldenrod 20px;
+    border-radius: 15px;
 }
   
 .square {
+    font-size: 40px;
+    text-align: center;
+    color: goldenrod;
     margin:auto;
     height: 200px;
     width: 225px;
-    border: solid black 2px;
-    background-color: rgb(255, 0, 89);
+    border: solid rgb(6, 88, 26) 2px;
+    background-color: rgb(5, 80, 18);
 
 }
-
+ p {
+    margin-top: 30px;
+ }
 .mole{ 
     border-radius: 50%;
     content: url(./images/download.jpeg)
