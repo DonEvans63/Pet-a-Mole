@@ -18,9 +18,14 @@ color:goldenrod;
 margin: 20px 5px 20px 5px;
 }
 
+.two {
+  padding: 15px;
+}
+
 .grid {
     position: relative;
-    margin: auto 10%;
+    width:700px;
+    margin: auto ;
     display: flex;
     flex-wrap: wrap;
     background-color: rgb(9, 179, 26);

@@ -41,7 +41,7 @@ function countDown() {
     if(currentTime === 0) {
         clearInterval(countDownTimerId);
         clearInterval(timeId)
-        alert('Game Over! Your final score is ' + result)
+        // alert('Game Over! Your final score is ' + result)
     }
 }
 let countDownTimerId = setInterval(countDown, 1000)
