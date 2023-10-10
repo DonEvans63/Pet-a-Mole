@@ -5,30 +5,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Whack a Mole</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
-    <div class="title one">
-        <h2>Your Score:</h2>
-        <h2 id="score"></h2>
+    <div id="head" class="container jumbotron">
+        <h1 id="instruct">Welcome to Pet-a-Mole the polictically
+            correct action game. When you press the Play Again button you will have 30 seconds to pet the mole as many times as you can.
+        </h1>
     </div>
-    <div class="title two">
-        <h2>Time Left:</h2>
-        <h2 id="time-Left"></h2><p>Pet<br />A<br />Mole<br />
+    <div id="main" class="container">
+        <div id="mainTitle">
+            <div class="title one">
+                <h2>Your Score:</h2>
+                <h2 id="score"></h2>
+            </div>
+            <div class="title two">
+                <h2>Time Left:</h2>
+                <h2 id="time-Left"></h2>
+            </div>
+            <form class="">
+                <a href="file:///Users/donevans/Desktop/GENERAL-ASSEMBLY/unit-1/Pet-a-Mole-Unit1-project/index.html"><button
+                        class="container button" style="width:200px; height:80px">PLAY AGAIN</button></a>
+            </form>
+        </div>
+        <div class="grid">
+            <div class="square" id="one">
+                <p>Pet<br />A<br />Mole<br /></p>
+            </div>
+            <div class="square" id="two"></div>
+            <div class="square" id="three">
+                <p>Pet<br />A<br />Mole<br />
+            </div>
+            <div class="square" id="four"></div>
+            <div class="square" id="five">
+                <p>Pet<br />A<br />Mole<br />
+            </div>
+            <div class="square" id="six"></div>
+            <div class="square" id="seven">
+                <p>Pet<br />A<br />Mole<br />
+            </div>
+            <div class="square" id="eight"></div>
+            <div class="square" id="nine">
+                <p>Pet<br />A<br />Mole<br />
+            </div>
+        </div>
     </div>
-    <div class="grid">
-        <div class="square" id="one"><p>Pet<br />A<br />Mole<br /></p></div>
-        <div class="square" id="two"><!--<p>Pet<br />A<br />Mole<br />--></div>
-        <div class="square" id="three"><p>Pet<br />A<br />Mole<br /></div>
-        <div class="square" id="four"><!--<p>Pet<br />A<br />Mole<br />--></div>
-        <div class="square" id="five"><p>Pet<br />A<br />Mole<br /></div>
-        <div class="square" id="six"><!--<p>Pet<br />A<br />Mole<br />--></div>
-        <div class="square" id="seven"><p>Pet<br />A<br />Mole<br /></div>
-        <div class="square" id="eight"><!--<p>Pet<br />A<br />Mole<br />-->                                                                                                                    </div>
-        <div class="square" id="nine"><p>Pet<br />A<br />Mole<br /></div>
-    </div>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="./app.js"></script>
 </body>

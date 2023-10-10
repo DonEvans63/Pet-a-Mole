@@ -5,30 +5,87 @@ body {
     background-color: black;
 } 
 
-.title {
+#head {
+    margin-top:100px;
+}
+
+#main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 150px;
+    justify-content: space-around;
+}
+
+#instruct {
+    font-family: 'ui-monospace', Courier, monospace;
+    font-weight: 700;
+    font-style: italic;
+    color:goldenrod;
+    font-size: 55px;
+    text-align:center;
+}
+
+#mainTitle {
+    padding-top: 15px;
+    width:500px;
+    padding-right: 0;
+}
+
+
+#one, #three, #five, #seven, #nine {
+    background-color:black;
+}
+
+#two, #four, #six, #eight {
+    background-color: goldenrod;
+}
+
+.title { 
     display:flex;
     flex-wrap: wrap;
     justify-content:center;
+    padding:10px 0;
+
+}
+
+.button {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-bottom:30px;
+    border:10px solid goldenrod;
+    border-radius: 10px;
+    background-color: black;
+    color: goldenrod;
+    font-size: 20px;
+    font-weight:900;
 }
 
 h2 {
 text-align: center;
-font-size:40px;
+font-size:75px;
 color:goldenrod;
 margin: 20px 5px 20px 5px;
 }
 
+.btn {
+    left: 65px;
+}
+
+.one {
+    margin-top: 15px;
+}
+
 .two {
-  padding: 15px;
+  padding-left: 35px;
 }
 
 .grid {
-    position: relative;
-    width:700px;
+    width:720px;
     margin: auto ;
     display: flex;
     flex-wrap: wrap;
-    background-color: rgb(9, 179, 26);
+    background-color: rgb(195, 182, 37);
     border: solid goldenrod 20px;
     border-radius: 15px;
 }
@@ -40,14 +97,20 @@ margin: 20px 5px 20px 5px;
     margin:auto;
     height: 200px;
     width: 225px;
-    border: solid rgb(6, 88, 26) 2px;
+    border: solid rgb(206, 191, 58) 2px;
     background-color: rgb(5, 80, 18);
 
 }
+
+form{
+    margin-top:50px;
+}
  p {
-    margin-top: 30px;
+    margin-top: 10px;
  }
+
 .mole{ 
     border-radius: 50%;
     content: url(./images/download.jpeg)
 }
+
