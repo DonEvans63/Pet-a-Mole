@@ -18,6 +18,7 @@ I then created a countDown Timer function and set it equal to 30 seconds. Once y
 CODE SNIPPETS:
 
 
+```Javascript
 function randomSquare() {
     squares.forEach(square => {
         square.classList.remove('mole')
@@ -38,7 +39,7 @@ squares.forEach(square => {
             hitPosition = null;
         }
     })
-})
+})```
 
 
 UNSOLVED PROBLEMS: 
